@@ -1,5 +1,67 @@
 /* -------------------- Common Section START -------------------- */
-.all{
-    
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama?styles=170364,627');
+
+.inter-fonts {
+  font-family: "Inter", sans-serif;
+  font-family: 'Miama', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }
+
 /* -------------------- Common Section END -------------------- */
+
+/* -------------------- Body Section START -------------------- */
+
+#bg {
+  background-color: black;
+}
+
+.header {
+  background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10%;
+}
+
+#logo {
+  color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 47px;
+
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.button-primary {
+  border: none;  
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* -------------------- Body Section END -------------------- */
