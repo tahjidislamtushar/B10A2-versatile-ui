@@ -1,4 +1,5 @@
 /* -------------------- Common Section START -------------------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama?styles=170364,627');
 
@@ -10,16 +11,30 @@
   font-style: normal;
 }
 
+.button-primary {
+  border: none;
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 /* -------------------- Common Section END -------------------- */
 
 /* -------------------- Body Section START -------------------- */
+
+/* ------------- Header Section START ------------- */
+
+/* ---------- Nav Section START ---------- */
 
 #bg {
   background-color: black;
 }
 
 .header {
-  background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+  background: linear-gradient(90 deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
 
 .navbar {
@@ -39,11 +54,20 @@
 nav ul {
   display: flex;
   list-style: none;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 4px 4px;
 }
 
 nav ul li {
-  margin-right: 47px;
+  margin-right: 50px;
 
+}
+
+#about {
+  margin-left: 15px;
+  margin-right: 30px;
 }
 
 nav ul li a {
@@ -54,14 +78,72 @@ nav ul li a {
   text-decoration: none;
 }
 
-.button-primary {
-  border: none;  
+#home-button {
+  padding: 8px 20px;
+}
+
+
+/* ---------- Nav Section END ---------- */
+
+/* ---------- Banner Section START ---------- */
+.banner{
+  background-image: url(../images/Images\ 2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  margin: 10% 10%;
+}
+
+.banner-content h2 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 78px;
+  font-weight: 900;
+}
+
+.banner-content span {
+  font-family: Miama;
+  font-size: 140px;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+#shape {
+  margin-top: -110px;
+  margin-bottom: -140px;
+}
+
+.banner-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 28px auto;
+}
+#join-club-button {
+  padding: 8px 40px;
+}
+
+#download-button {
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 46px;
-  background: rgb(230, 83, 60);
+  background: none;
   color: rgb(255, 255, 255);
   font-family: Inter;
   font-size: 18px;
   font-weight: 600;
+  padding: 8px 40px;
+  margin-left: 14px;
 }
+
+
+
+.banner-elements{
+ }
+
+
+/* ---------- Banner Section END ---------- */
+
+/* ------------- Header Section END ------------- */
 
 /* -------------------- Body Section END -------------------- */
